@@ -1,9 +1,20 @@
-const links=document.querySelectorAll("nav a");
+document.addEventListener("DOMContentLoaded", function() {
 
-links.forEach(link=>{
-  link.addEventListener("click",function(e){
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href"))
-    .scrollIntoView({behavior:"smooth"});
+  const links = document.querySelectorAll("nav a");
+
+  links.forEach(function(link) {
+    link.addEventListener("click", function(e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute("href");
+      const targetSection = document.querySelector(targetId);
+
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+    });
   });
+
 });
