@@ -7,8 +7,8 @@
 
 body{
   font-family:'Poppins', sans-serif;
-  background:#f6f1eb;
-  color:#2e2e2e;
+  background:#111111;
+  color:#e6e6e6;
 }
 
 /* HEADER */
@@ -17,29 +17,29 @@ header{
   justify-content:space-between;
   align-items:center;
   padding:18px 8%;
-  background:white;
+  background:#1a1a1a;
   position:fixed;
   width:100%;
-  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+  border-bottom:1px solid rgba(255,255,255,0.05);
   z-index:1000;
 }
 
 .logo{
   font-family:'DM Serif Display', serif;
   font-size:22px;
-  color:#7a5c3e;
+  color:#d6b98c;
 }
 
 nav a{
   text-decoration:none;
   margin-left:20px;
-  color:#444;
+  color:#bbb;
   font-size:14px;
   transition:0.3s;
 }
 
 nav a:hover{
-  color:#7a5c3e;
+  color:#d6b98c;
 }
 
 /* HERO */
@@ -63,19 +63,20 @@ nav a:hover{
 
 .hero-left h2{
   font-size:20px;
-  color:#7a5c3e;
+  color:#d6b98c;
   margin-bottom:15px;
 }
 
 .hero-left p{
   font-size:14px;
   line-height:1.6;
+  color:#ccc;
 }
 
 .hero-right img{
   width:260px;
   border-radius:20px;
-  box-shadow:0 15px 30px rgba(0,0,0,0.15);
+  box-shadow:0 15px 40px rgba(0,0,0,0.7);
 }
 
 /* SECTIONS */
@@ -84,21 +85,18 @@ nav a:hover{
   text-align:center;
 }
 
-.alt{
-  background:white;
-}
-
 .section h2{
   font-family:'DM Serif Display', serif;
   font-size:26px;
   margin-bottom:20px;
-  color:#7a5c3e;
+  color:#d6b98c;
 }
 
 .section p{
   max-width:650px;
   margin:auto;
   font-size:14px;
+  color:#ccc;
 }
 
 /* CARDS */
@@ -110,25 +108,25 @@ nav a:hover{
 }
 
 .card{
-  background:#ffffff;
+  background:#1e1e1e;
   padding:18px;
   border-radius:14px;
-  box-shadow:0 5px 15px rgba(0,0,0,0.05);
   font-size:14px;
   transition:0.3s;
+  border:1px solid rgba(255,255,255,0.05);
 }
 
 .card:hover{
   transform:translateY(-5px);
-  background:#7a5c3e;
-  color:white;
+  background:#d6b98c;
+  color:#111;
 }
 
 /* CONTACT */
 #contact a{
   display:inline-block;
   margin-top:12px;
-  color:#7a5c3e;
+  color:#d6b98c;
   text-decoration:none;
 }
 
@@ -138,8 +136,8 @@ nav a:hover{
 
 /* FOOTER */
 footer{
-  background:#2e2e2e;
-  color:white;
+  background:#0d0d0d;
+  color:#777;
   padding:20px;
   text-align:center;
   font-size:12px;
