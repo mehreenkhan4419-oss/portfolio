@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<title>My Portfolio</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mehreen Sadiq | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<header>
+<nav>
+
+<h2 class="logo">Mehreen</h2>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+<header class="hero">
+
+<img src="images/profile.jpg" class="hero-img">
 
 <h1>Mehreen Sadiq</h1>
 
-<nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+<p class="typing"></p>
 
 </header>
-
-
-<section id="home">
-
-<div class="home-text">
-
-<h2>Mathematics Student</h2>
-
-<p>
-Dedicated mathematics student interested in data analysis,
-statistics and mathematical modeling.
-</p>
-
-</div>
-
-<div class="home-img">
-
-<img src="images/profile.jpg">
-
-</div>
-
-</section>
 
 
 <section id="about">
@@ -50,9 +46,15 @@ statistics and mathematical modeling.
 <h2>About Me</h2>
 
 <p>
-I am currently studying BS Mathematics at BZU Multan.
-My academic interests include regression analysis,
-statistical modeling and financial mathematics.
+
+I am a BS Mathematics student specializing in Finance with a strong interest in Artificial Intelligence and Data Analysis. 
+
+My academic background in mathematics allows me to understand statistical models, probability concepts, and analytical techniques used in modern AI systems.
+
+I enjoy using tools like Python, Excel, and Hugging Face to explore machine learning models and analyze real-world datasets.
+
+My goal is to build a career that combines Mathematics, Finance, and Artificial Intelligence to create data-driven solutions.
+
 </p>
 
 </section>
@@ -62,15 +64,15 @@ statistical modeling and financial mathematics.
 
 <h2>Skills</h2>
 
-<div class="cards">
+<div class="skills-grid">
 
-<div class="card">Regression Analysis</div>
-
-<div class="card">Statistical Modeling</div>
-
-<div class="card">Problem Solving</div>
-
-<div class="card">Research Writing</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Leadership</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Data Analysis</div>
+<div class="skill">Python</div>
+<div class="skill">Excel</div>
+<div class="skill">Hugging Face</div>
 
 </div>
 
@@ -81,35 +83,36 @@ statistical modeling and financial mathematics.
 
 <h2>Projects</h2>
 
-<div class="project">
+<div class="project-card">
 
-<img src="images/project1.jpg">
+<img src="images/regression.jpg">
 
-<div>
-<h3>House Price Prediction</h3>
+<h3>Predicting House Prices</h3>
 
 <p>
-Regression model used to predict house prices
-based on area and number of rooms.
+
+Regression-based machine learning model designed to predict house prices based on features such as area, number of rooms, location rating, and house quality.
+
 </p>
 
 </div>
 
-</div>
+</section>
 
 
-<div class="project">
+<section id="certificates">
 
-<img src="images/project2.jpg">
+<h2>Certificates</h2>
 
-<div>
-<h3>Stock Price Modeling</h3>
+<div class="project-card">
+
+<img src="images/certificate.jpg">
 
 <p>
-Used stochastic processes to model stock price behavior.
-</p>
 
-</div>
+Participated in the Business Startup Expo organized by BZU Centre for Advanced Studies in Pure and Applied Mathematics.
+
+</p>
 
 </div>
 
@@ -120,10 +123,30 @@ Used stochastic processes to model stock price behavior.
 
 <h2>Contact</h2>
 
-<p>Email: your@email.com</p>
+<p>Email: mehreenkhan4419@gmail.com</p>
+
+<p>
+
+LinkedIn  
+<a href="https://linkedin.com/in/mehreen-khan-66107a321">
+
+linkedin.com/in/mehreen-khan-66107a321
+
+</a>
+
+</p>
 
 </section>
 
 
+<footer>
+
+<p>© 2026 Mehreen Sadiq</p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
