@@ -1,26 +1,83 @@
 body{
-font-family: Arial;
+
 margin:0;
-text-align:center;
+font-family:Arial;
+background:#0f0f0f;
+color:white;
+
 }
 
 header{
+
 background:black;
-color:white;
-padding:15px;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
 }
 
 nav a{
+
 color:white;
-margin:10px;
+margin:15px;
 text-decoration:none;
+
+}
+
+nav a:hover{
+
+color:gold;
+
 }
 
 section{
-padding:40px;
+
+padding:60px;
+
 }
 
-img{
+#home{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+}
+
+#home img{
+
+width:250px;
+border-radius:15px;
+
+}
+
+.cards{
+
+display:flex;
+gap:20px;
+
+}
+
+.card{
+
+background:#1e1e1e;
+padding:20px;
 border-radius:10px;
-margin-top:10px;
+
+}
+
+.project{
+
+display:flex;
+gap:20px;
+margin-top:30px;
+
+}
+
+.project img{
+
+width:200px;
+border-radius:10px;
+
 }
